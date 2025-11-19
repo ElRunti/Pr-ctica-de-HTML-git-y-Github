@@ -3,41 +3,65 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mi primer sitio</title>
+  <link rel="stylesheet" href="src/css/style.css">
+  <title>Mi blog</title>
 </head>
 <body>
   <header>
   <nav>
     <a href="#inicio">Inicio</a>
-    <a href="#productos">Productos</a>
+    <a href="#sobre-mi">Acerca de</a>
     <a href="#contacto">Contacto</a>
   </nav>
 </header>
 <br><br>
 <main id="inicio">
-  <section id="productos">
+  <section>
     <article>
-      <h2>Chamarra de cuero</h2>
-      <p>Chamarra de uso diario, ayuda a no requemarte por el sol y muy buena para andar en motocicleta </p>
+      <h2>Bienvenidos a mi blog</h2>
+      <p>Mi nombre es Ruben Nuñez Almanza <strong>alumni</strong> de DevF</p>
     </article>
-    <img src="chamarra.jpg" alt="Chamarra de cuero" width="300">
+    <img src="perfilRuben.png" alt="Fotografia del alumni Ruben Nuñez Almanza" width="300">
 </section>
-<br><br>
+</main>
+<div id="sobre-mi">
+<p>Me encanta la programacion al igual que la produccion musical y soy fan de los videojuegos de guerra , si alguien quiere regalarme algo lo acepto</p>
+<br>
+<p>Mis gustos</p> 
+<ul>
+  <li>Programar</li>
+  <li>Musica</li>
+  <li>Bailar</li>
+  <li>Jugar videojugos</li>
+  <li>Saber cosas nuevas</li>
+</ul>
+<p>Mis redes sociales son:</p>
+<ol>
+  <li><span>📷</span> <a href="//www.instagram.com/rubeennu/">rubeennu</a></li>
+  <li><span>🎶</span>Spotify: <a href="https://open.spotify.com/intl-es/artist/0uS52mSvdSTYlgZIBUOg4a">El Runti</a></li>
+  <li><span>💻</span>GitHub: <a href="https://github.com/ElRunti">ElRunti</a></li>
+</ol>
+</div>
+
+<div id="contactame">
+
+</div>
 <fieldset>
-  <legend>¿Quieres recibir información? Proporciona tu correo electrónico</legend>
-  <form action="#" method="post">
-    <label for="correo">Correo electrónico</label>
-    <input id="correo" name="correo" type="email" required />
-    <label>
-      <input type="checkbox" required />
-      Acepto términos y condiciones
-    </label>
-    <button type="submit">Enviar</button>
-  </form>
+  <legend>Ficha de contacto</legend>
+<fo action="#" method="post">
+<h2>Contactame</h2>
+<label for="nombre">Nombre:</label>
+<input type="text" id="nombre" name="nombre" required><br>
+<label for="email">Correo electronico</label><br>
+<input type="email" id="email" name="email" required><br>
+<label for="mensaje">Mensaje</label><br>
+<textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+<input type="submit" value="Enviar"><br>
+
+</form>
 </fieldset>
-<br><br>
 <footer>
-  <small>© 2025 </small>
+  <p>℗ Todos los derechos reservados </p>
 </footer>
 </body>
 </html>
